@@ -1,0 +1,28 @@
+{% load static %}
+
+<!doctype html>
+<html>
+   <head>
+       <style>
+         body {
+          background-color: lightblue;
+          }
+        h1 {
+          color: maroon;
+          margin-left: 40px;
+           } 
+      </style> 
+      <meta charset = "utf-8">
+      <title>Azure For Every one</title>
+      <meta name="d" content="">
+      <link rel="stylesheet" href="{% static 'main.css' %}">
+      
+    </head>
+    
+     <body>
+        {% block content %}
+        {% endblock content %}
+        
+     </body>
+     
+</html>
